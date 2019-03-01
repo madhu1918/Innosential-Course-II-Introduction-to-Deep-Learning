@@ -1,0 +1,307 @@
+[{
+	"title": "Quiz",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What does the analogy “AI is the new electricity” refer to?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Through the “smart grid”, AI is delivering a new wave of electricity.",
+					"correct": false
+				},
+
+				{
+					"option": "Similar to electricity starting about 100 years ago, AI is transforming multiple industries.",
+					"correct": true
+				},
+
+				{
+					"option": "AI runs on computers and is thus powered by electricity, but it is letting computers do things not possible before.",
+					"correct": false
+				},
+
+				{
+					"option": "AI is powering personal devices in our homes and o ces, similar to electricity.",
+					"correct": false
+				}
+
+			],
+			"correct_feedback": "Correct. Yes. AI is transforming many elds from the car industry to agriculture to supply-chain...",
+			"wrong_feedback": "Incorrect"
+		},
+
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Which of these are reasons for Deep Learning recently taking o ? (Check the two options that apply.)"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "We have access to a lot more computational power",
+					"correct": true
+				},
+
+				{
+					"option": "Deep learning has resulted in signi cant improvements in important applications such as online advertising, speech recognition, and image recognition.",
+					"correct": true
+				},
+
+				{
+					"option": "Neural Networks are a brand new eld.",
+					"correct": true
+				},
+
+				{
+					"option": "We have access to a lot more data.",
+					"correct": true
+				}
+
+
+			],
+			"correct_feedback": "['option-1: Yes! The development of hardware, perhaps especially GPU computing, has significantly improved deep learning algorithms' performance.','option-2: Yes! The digitalization of our society has played a huge role in this.']",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+					"text": "Recall this diagram of iterating over di erent ML ideas. Which of the statement below true? (Check all that apply.)"
+				},
+				{
+					"image": {
+						"imageSRC": "image-1.png",
+						"imageName": ""
+					}
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "Being able to try out ideas quickly allows deep learning engineers to iterate more quickly.",
+					"correct": true
+				},
+
+				{
+					"option": "Faster computation can help speed up how long a team takes to iterate to a good idea.",
+					"correct": true
+				},
+
+				{
+					"option": "It is faster to train on a big dataset than a small dataset.",
+					"correct": true
+				},
+
+				{
+					"optText": "Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "['option-1: Yes, as discussed in Lecture 4.','option-2: Yes, as discussed in Lecture 4.']",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the rst try, without needing to iterate multiple times through di erent models. True/False?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": false
+				},
+
+				{
+					"option": "False",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "Correct Yes. Finding the characteristics of a model is key to have good performance. Although experience can help, it requires multiple iterations to build a good model.",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which one of these plots represents a ReLU activation function?"
+			},
+			{
+					"image": {
+						"imageSRC": "image-2.png",
+						"imageName": "Figure-1"
+					}
+			},
+			{
+					"image": {
+						"imageSRC": "image-3.png",
+						"imageName": "Figure-2"
+					}
+			},
+			{
+					"image": {
+						"imageSRC": "image-4.png",
+						"imageName": "Figure-3"
+					}
+			},
+			{
+					"image": {
+						"imageSRC": "image-5.png",
+						"imageName": "Figure-4"
+					}
+			}
+		],
+			"max_marks": "1",
+			"options": [
+				{
+					"option": "Figure-1",
+					"correct": false
+				},
+
+				{
+					"option": "Figure 2:",
+					"correct": false
+				},
+
+				{
+					"option": "Figure 3:",
+					"correct": true
+				},
+				{
+					"option": "Figure 4:",
+					"correct": false
+				}
+
+
+
+			],
+			"correct_feedback": "Correct! This is the ReLU activation function, the most used in neural networks.",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Images cat recognition is an example of “structured” data, because it is Quiz, 10 questions represented as a structured array in a computer. True/False?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": false
+				},
+
+				{
+					"option": "False",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "Yes. Images for cat recognition is an example of “unstructured” data.",
+			"wrong_feedback": "Incorrect"
+		}, {
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "A demographic dataset with statistics on di erent cities' population, GDP per capita, economic growth is an example of \"structured\" data by opposition to image, audio or text datasets."
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "True",
+					"correct": false
+				},
+
+				{
+					"option": "False",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "Correct. A demographic dataset with statistics on di erent cities' population, GDP per capita, economic growth is an example of \"structured\" data by opposition to image, audio or text datasets.",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Why is an RNN (Recurrent Neural Network) used for machine translation, say translating English to French? (Check all that apply.)"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "It can be trained as a supervised learning problem.",
+					"correct": false
+				},
+
+				{
+					"option": "It is strictly more powerful than a Convolutional Neural Network (CNN).",
+					"correct": true
+				},
+				{
+					"option": "It is applicable when the input/output is a sequence (e.g., a sequence of words).",
+					"correct": true
+				},
+
+				{
+					"option": "RNNs represent the recurrent process of Idea->Code->Experiment->Idea->....",
+					"correct": true
+				}
+
+
+			],
+			"correct_feedback": "Correct. Yes. An RNN can map from a sequence of english words to a sequence of french words.",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis)and to  vertical axis (y-axis) represent?"
+				},
+				{
+					"image": {
+						"imageSRC": "image-6.png",
+						"imageName": ""
+					}
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "x-axis is the amount of data<br>y-axis is the size of the model you train.",
+					"correct": false
+				},
+
+				{
+					"option": "x-axis is the performance of the algorithm<br>y-axis (vertical axis) is the amount of data.",
+					"correct": false
+				},
+				{
+					"option": "x-axis is the input to the algorithm<br>y-axis is outputs.",
+					"correct": false
+				},
+
+				{
+					"option": "x-axis is the amount of data<br>y-axis (vertical axis) is the performance of the algorithm.",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Assuming the trends described in the previous question's gure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)"
+			}],
+			"max_marks": "1",
+			"options": [{}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

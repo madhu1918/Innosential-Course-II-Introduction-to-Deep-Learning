@@ -1,0 +1,111 @@
+{
+    "activities": [],
+    "learningObjectives": [],
+    "overview": [
+        "<ul style=list-style-type:none><li>Unit : 1<ol type=1><li>Introduction to deep learning</li><li>Course logistics</li><li>History and cognitive basis of neural computation</li><li>The perceptron / multi-layer perceptron</li></li></ol><li>Unit : 2<ol type=1><li>The neural net as a universal approximator</li></li></ol><li>Unit : 3A<ol type=1><li>Training a neural network</li><li>Perceptron learning rule</li><li>Empirical Risk Minimization</li><li>Optimization by gradient descent</li></li></ol><li>Unit : 3B<ol type=1><li>Single hidden layered networks and universal approximation</li><li>Motivation for more than 1 hidden layer</li><li>Feature engineering versus co-learning features and estimation</li></li></ol><li>Unit : 4<ol type=1><li>Back propagation</li><li>Calculus of back propagation</li></li></ol><li>Unit : 5<ol><li>Convergence in neural networks</li><li>Rates of convergence</li><li>Loss surfaces, Learning rates, and optimization methods</li><li>RMSProp, Adagrad, Momentum</li></li></ol><li>Unit : 6<ol type=1><li>Stochastic gradient descent</li><li>Acceleration</li><li>Overfitting and regularization</li><li>Tricks of the trade:</li><li>Choosing a divergence (loss) function</li><li>Batch normalization</li><li>Dropout</li></li></ol><li>Unit : 7<ol type=1><li>Recap of Training Q&A session for students</li></li></ol><li>Unit : 8 <ol type=1><li>Optimization continued</li>"
+    ],
+    "short_description": "The course covers the basics of Linear Algorithms and Neural Networks it also teaches you to create a your first neural network of multiple layer from scratch.  The topics of the course include the following. <br>Learning from Data, Learning Algorithms, Feed Forward Network, Regression, Ensemble Models, Support Vector Machine, Neural Network, Back Propogation.<br><b>Projects Covered in the Course.</b><br>Building your first Neural Network, Weather Forecasting, Auto-colorization of b/w images, Video Summarization.",
+    "image": "intro_to_deep_learning.png",
+    "instructors": [{
+    "name": "Joy Mustafi",
+    "profile_url": "http://innosential.com/joy-mustafi/",
+    "image": "joy.jpg"
+    }, {
+    "name": "Dipanjan Sarkar",
+    "profile_url": "http://innosential.com/dipanjan-sarkar",
+    "image": "Dipanjan.png"
+    }, {
+    "name": "Vijay Gabale",
+    "profile_url": "http://innosential.com/vijay-gabale",
+    "image": "vijay.jpg"
+    }],
+    "title": "Course II: Introduction to Deep Learning",
+    "units": [{
+            "activities": [
+                "Lecture 1: Introduction to Deep Learning",
+                "Quiz"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Neural Networks"
+        },
+        {
+            "activities": [
+                "Lecture 2: The Neural as an Universal Approximator",
+                "Assignment",
+                "Quiz"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Neural Networks What can a network represent"
+        },
+        {
+            "activities": [
+                "Lecture 3: Neural Network Traiing",
+                "Quiz"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Learning the Network Part 1"
+        },
+        {
+            "activities": [
+                "Lecture 4: BackPropagation",
+                "Lecture 5: BackPropagation Contd",
+                "Assignment",
+                "Quiz"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Learning the Network Backdrop"
+        },
+        {
+            "activities": [
+                "Lecture 6: Optimization Part-1"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Neural Networks Optimization Part 1"
+        },
+        {
+            "activities": [
+                "Lecture 7: Optimization Part-2",
+                "Assignment",
+                "Quiz-1",
+                "Quiz-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Neural Networks Optimization"
+        },
+        {
+            "activities": [
+                "Lecture 8: Conolutional Neural Networks(Part-1)"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "instructors": [
+                "Joy Mustafi"
+            ],
+            "title": "Deep Neural Networks Scanning for patterns (aka convolutional networks)"
+        }
+    ]
+}

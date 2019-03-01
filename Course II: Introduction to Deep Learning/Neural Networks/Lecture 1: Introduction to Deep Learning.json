@@ -1,0 +1,13 @@
+[
+	{
+		"title":"Lecture 1 Introduction to Deep Learning",
+		"activityType":"youtubevideo",
+		"videoURL":"NzBZswFn0-Y",
+		"videoResources" : "lec1.intro (1).pdf"
+	},
+	{
+		"title":"Discussion forum",
+		"activityType":"discussion",
+		"URL":"piazza.com"
+	}
+]

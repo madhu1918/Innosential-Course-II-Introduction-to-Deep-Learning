@@ -1,0 +1,375 @@
+[{
+	"title": "Quiz",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which notation would you use to denote the 3rd layer’s activations when the input is the 7th example from the 8th minibatch?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "a<sup>[3]{8}(7)</sup>",
+					"correct": true
+				},
+
+				{
+					"option": "a<sup>[8]{7}(3)</sup>",
+					"correct": false
+				},
+
+				{
+					"option": "a<sup>[8]{3}(7)</sup>",
+					"correct": false
+				},
+
+				{
+					"option": "a<sup>[3]{7}(8)</sup>",
+					"correct": false
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of these statements about mini-batch gradient descent do you agree with?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Training one epoch (one pass through the training set) using mini- batch gradient descent is faster than training one epoch using batch gradient descent.",
+					"correct": false
+				},
+
+				{
+					"option": "One iteration of mini-batch gradient descent (computing on a single mini-batch) is faster than one iteration of batch gradient descent.",
+					"correct": false
+				},
+				{
+					"option": "You should implement mini-batch gradient descent without an explicit for-loop over di erent mini-batches, so that the algorithm processes all mini-batches at the same time (vectorization).",
+					"correct": false
+				}
+
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+
+
+
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Why is the best mini-batch size usually not 1 and not m, but instead something in-between?"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "If the mini-batch size is 1, you end up having to process the entire training set before making any progress.",
+					"correct": true
+				},
+
+				{
+					"option": "If the mini-batch size is m, you end up with batch gradient descent, which has to process the whole training set before making progress.",
+					"correct": true
+				},
+				{
+					"option": "If the mini-batch size is 1, you lose the bene ts of vectorization across examples in the mini-batch.",
+					"correct": true
+				},
+				{
+					"option": "If the mini-batch size is m, you end up with stochastic gradient descent, which is usually slower than mini-batch gradient descent.",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Suppose your learning algorithm's cost J , plotted as a function of the number of  iterations, looks like this:"
+				},
+				{
+					"image": {
+						"imageSRC": "image-1.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "Which of the following do you agree with?"
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "Whether you’re using batch gradient descent or mini-batch gradient descent, this looks acceptable.",
+					"correct": false
+				},
+
+				{
+					"option": "Whether you’re using batch gradient descent or mini-batch gradient descent, something is wrong.",
+					"correct": false
+				},
+				{
+					"option": "If you’re using mini-batch gradient descent, something is wrong. But if you’re using batch gradient descent, this looks acceptable.",
+					"correct": false
+				},
+				{
+					"option": "If you’re using mini-batch gradient descent, this looks acceptable. But if you’re using batch gradient descent, something is wrong.",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose the temperature in Casablanca over the rst three days of January are the same:<br><br>Jan 1st: θ<sub>1</sub>= 10<sup>o</sup>C<br><br>Jan 2nd: θ<sub>2</sub>10<sup>o</sup>C<br>(We used Fahrenheit in lecture, so will use Celsius here in honor of the metric world.)<br><br>Say you use an exponentially weighted average with β = 0.5 to track the temperature: v 0 = 0 , v t = β v t−1 + (1 − β) θ t . If v 2 is the value computed after  day 2 without bias correction, and v corrected is the value you compute with bias 2 correction. What are these values? (You might be able to do this without calculator, but you don't actually need one. Remember what is bias correction doing.)"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "v<sub>2</sub>=10, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": false
+				},
+
+				{
+					"option": "v<sub>2</sub>=7.5, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": true
+				},
+				{
+					"option": "v<sub>2</sub>=10, v<sup>connected</sup><sub>2</sub>=7.5",
+					"correct": false
+				},
+				{
+					"option": "v<sub>2</sub>=7.5, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": false
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose the temperature in Casablanca over the rst three days of January are the same:<br><br>Jan 1st: θ<sub>1</sub>= 10<sup>o</sup>C<br><br>Jan 2nd: θ<sub>2</sub>10<sup>o</sup>C<br>(We used Fahrenheit in lecture, so will use Celsius here in honor of the metric world.)<br><br>Say you use an exponentially weighted average with β = 0.5 to track the temperature: v 0 = 0 , v t = β v t−1 + (1 − β) θ t . If v 2 is the value computed after  day 2 without bias correction, and v corrected is the value you compute with bias 2 correction. What are these values? (You might be able to do this without calculator, but you don't actually need one. Remember what is bias correction doing.)"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "v<sub>2</sub>=10, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": false
+				},
+
+				{
+					"option": "v<sub>2</sub>=7.5, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": true
+				},
+				{
+					"option": "v<sub>2</sub>=10, v<sup>connected</sup><sub>2</sub>=7.5",
+					"correct": false
+				},
+				{
+					"option": "v<sub>2</sub>=7.5, v<sup>connected</sup><sub>2</sub>=10",
+					"correct": false
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Which of these is NOT a good learning rate decay scheme? Here, t is the epoch number."
+				},
+				{
+					"image": {
+						"imageSRC": "image-2.png",
+						"imageName": "Figure-1"
+					}
+				},
+				{
+					"image": {
+						"imageSRC": "image-3.png",
+						"imageName": "Figure-2"
+					}
+				},
+				{
+					"image": {
+						"imageSRC": "image-4.png",
+						"imageName": "Figure-3"
+					}
+				},
+				{
+					"image": {
+						"imageSRC": "image-5.png",
+						"imageName": "Figure-4"
+					}
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "Figure-1",
+					"correct": false
+				},
+
+				{
+					"option": "Figure-2",
+					"correct": false
+				},
+				{
+					"option": "Figure-3",
+					"correct": true
+				},
+				{
+					"option": "Figure-4",
+					"correct": false
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+					"text": "You use an exponentially weighted average on the London temperature dataset. You use the following to track the temperature: v t = β v t−1 + (1 − β) θ t . The red line below was computed using β = 0.9 . What would happen to your red curve as you vary β ? (Check the two that apply)"
+				},
+				{
+					"image": {
+						"imageSRC": "image-6.png",
+						"imageName": ""
+					}
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "Decreasing β will shift the red line slightly to the right.",
+					"correct": true
+				},
+
+				{
+					"option": "Increasing β will shift the red line slightly to the right.",
+					"correct": true
+				},
+				{
+					"option": "Decreasing β will create more oscillation within the red line.",
+					"correct": true
+				},
+				{
+					"option": "Increasing β will create more oscillations within the red line.",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "['option-2: True, remember that the red line corresponds to β = 0.9 . In lecture we had a green line $$\beta = 0.98) that is slightly shifted to the right.','option-2: True, remember that the red line corresponds to β = 0.9 . In lecture we had a yellow line $$\beta = 0.98 that had a lot of oscillations.']",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+					"text": "Consider this gure:"
+				},
+				{
+					"image": {
+						"imageSRC": "image-7.png",
+						"imageName": ""
+					}
+				},
+				{
+					"text": "These plots were generated with gradient descent; with gradient descent with momentum ( β = 0.5) and gradient descent with momentum ( β = 0.9). Which curve corresponds to which algorithm?"
+				}
+			],
+			"max_marks": "1",
+			"options": [{
+					"option": "(1) is gradient descent. (2) is gradient descent with momentum (large β ) . (3) is gradient descent with momentum (small β )",
+					"correct": false
+				},
+
+				{
+					"option": "(1) is gradient descent. (2) is gradient descent with momentum (small β ) . (3) is gradient descent with momentum (large β )",
+					"correct": true
+				},
+				{
+					"option": "(1) is gradient descent with momentum (small β ), (2) is gradient descent with momentum (small β ), (3) is gradient descent",
+					"correct": false
+				},
+				{
+					"option": "(1) is gradient descent with momentum (small β ). (2) is gradient descent. (3) is gradient descent with momentum (large β )",
+					"correct": false
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Suppose batch gradient descent in a deep network is taking excessively long to nd a value of the parameters that achieves a small value for the cost function . Which of the following techniques could help nd parameter values that attain a small value for J ? (Check all that apply)"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Try better random initialization for the weights",
+					"correct": true
+				},
+
+				{
+					"option": "Try mini-batch gradient descent",
+					"correct": true
+				},
+				{
+					"option": "Try using Adam",
+					"correct": true
+				},
+				{
+					"option": "Try initializing all the weights to zero",
+					"correct": true
+				}, {
+					"option": "Try tuning the learning rate α",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of the following statements about Adam is False?s"
+			}],
+			"max_marks": "1",
+			"options": [{
+					"option": "Adam should be used with batch gradient computations, not with mini- batches.",
+					"correct": true
+				},
+
+				{
+					"option": "The learning rate hyperparameter α in Adam usually needs to be tuned.",
+					"correct": true
+				},
+				{
+					"option": "Adam combines the advantages of RMSProp and momentum",
+					"correct": true
+				},
+				{
+					"option": "Try initializing all the weights to zero",
+					"correct": true
+				}, {
+					"option": "We usually use “default” values for the hyperparameters β 1 , β 2 and ε in Adam ( β 1 = 0.9 , β 2 = 0.999 , ε = 10<sup>−8</sup> )",
+					"correct": true
+				}
+
+			],
+			"correct_feedback": "correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

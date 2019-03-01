@@ -1,0 +1,13 @@
+[
+	{
+		"title":"Lecture 2: The Neural as an Universal Approximator",
+		"activityType":"youtubevideo",
+		"videoURL":"4PsbO9LbEHI",
+		"videoResources" : "lec2.universal.pdf"
+	},
+	{
+		"title":"Discussion forum",
+		"activityType":"discussion",
+		"URL":"piazza.com"
+	}
+]
